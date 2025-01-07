@@ -3,7 +3,7 @@ $msiInstall = Start-Process -FilePath "msiexec.exe" -ArgumentList "/i", "C:\temp
 
 # Verificar se a instalação foi bem-sucedida
 if ($msiInstall.ExitCode -eq 0) {
-    Write-Host "Instalação concluída com sucesso."
+    Write-Host "Instalação concluída com sucesso!."
 
     # Registrar o provedor PLAP após a instalação
     Start-Process -FilePath "C:\Program Files\Palo Alto Networks\GlobalProtect\PanGPS.exe" -ArgumentList "-registerplap" -Wait
