@@ -1,2 +1,2 @@
 # script-deploy-global-protect-intune-autopilot
-Script em Powershell para Deploy do Global Protect
+Este Script em Powershell tem por objetivo ajudar no Deploy do Global Protect
